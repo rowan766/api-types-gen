@@ -1,7 +1,7 @@
 {
-  "name": "@rowan/types-cli",
+  "name": "api-types-gen",
   "version": "1.2.0",
-  "description": "基于Quicktype CLI工具，用于生成类型定义",
+  "description": "A Quicktype-based CLI tool for generating type definitions",
   "bin": {
     "types-gen": "./bin/cli.js"
   },
@@ -17,6 +17,18 @@
   ],
   "author": "570436048@qq.com",
   "license": "ISC",
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowan766/types-cli.git"
+  },
+  "homepage": "https://github.com/rowan766/types-cli#readme",
+  "bugs": {
+    "url": "https://github.com/rowan766/types-cli/issues"
+  },
   "dependencies": {
     "@darkobits/lolcatjs": "^3.1.3",
     "chalk": "^4.1.0",
